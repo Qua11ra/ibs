@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# pytest / Playwright
+.pytest_cache/
+.python_packages/
+allure-results/
+allure-report/
+traces/
+screenshots/
+videos/
+test_data/
+.playwright-mcp/
+
+# Инструменты / мусор
+.omo/
+*.zip
+*.png
+
+# md-файлы с описанием задач, архитектуры, шагов и результатов
+generalTask.md
+task.md
+promt.md
+steps.md
+structure_of_project.md
+summary.md
+
+# IDE / ОС
+.idea/
+.vscode/
+*.swp
+.DS_Store
